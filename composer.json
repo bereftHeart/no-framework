@@ -1,0 +1,22 @@
+{
+    "name": "php/php",
+    "description": "This is a PHP app without any framework.",
+    "keywords": ["PHP", "no framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dat Nguyen",
+            "email": "dathust215192@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "filp/whoops": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}
