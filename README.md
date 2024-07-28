@@ -1,1 +1,1 @@
-# no-framework
+# An application using PHP without any framework
